@@ -1,144 +1,164 @@
-# AI Finance Expense Automation System
+# 💰 AI Finance Expense Automation System
 
-## Project Overview
-This project demonstrates an end-to-end automated expense management system built using no-code and analytics tools. It integrates Google Forms, Google Sheets, n8n workflow automation, and Power BI to create a real-time financial tracking and decision-making system.
+## 📌 Project Overview
 
-The solution eliminates manual expense tracking, reduces processing time, and provides instant visibility into organizational spending.
+This project demonstrates an end-to-end **automated expense management system** built using no-code tools and analytics platforms. It integrates Google Forms, Google Sheets, n8n workflow automation, and Power BI to create a **real-time financial tracking system**.
+
+The solution eliminates manual work, reduces processing time, and provides instant visibility into expenses for better decision-making.
 
 ---
 
-## Business Problem
+## 🚨 Business Problem
+
 Traditional expense management systems rely heavily on:
-- Manual data entry
-- Email approvals
-- Spreadsheet tracking
-- Delayed reporting
 
-This results in:
-- Increased errors
-- Slow reimbursements
-- Lack of real-time insights
-- Poor financial decision-making
+* Manual data entry
+* Email approvals
+* Spreadsheet tracking
+* Delayed reporting
 
----
+### ❌ Challenges:
 
-## Solution
-This system automates the entire workflow:
-
-1. Employee submits expense via Google Form  
-2. Data is captured in Google Sheets  
-3. n8n triggers workflow automatically  
-4. Email notification sent to finance team  
-5. Data available for dashboard analysis in Power BI  
+* High chances of errors
+* Slow reimbursement process
+* No real-time insights
+* Inefficient financial control
 
 ---
 
-## Tools and Technologies Used
-- Google Forms (Data Input)
-- Google Sheets (Data Storage)
-- n8n (Workflow Automation)
-- Gmail (Email Notifications)
-- Microsoft Power BI (Dashboard & Analytics)
+## ✅ Solution
+
+This system automates the complete workflow:
+
+1. Employee submits expense via **Google Form**
+2. Data is stored in **Google Sheets**
+3. **n8n** automatically triggers workflow
+4. Email notification sent to finance team
+5. Data visualized in **Power BI Dashboard**
 
 ---
 
-## Workflow Architecture
-The system follows this pipeline:
+## 🛠️ Tools & Technologies
 
+* Google Forms (Data Input)
+* Google Sheets (Data Storage)
+* n8n (Workflow Automation)
+* Gmail (Email Notifications)
+* Microsoft Power BI (Dashboard & Analytics)
+
+---
+
+## 🔄 Workflow Architecture
+
+```text
 Google Form → Google Sheets → n8n Workflow → Email Notification → Power BI Dashboard
+```
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
+```text
 Finance-Automation-Project/
 │
 ├── n8n_workflow/
-│ └── expense_automation_workflow.json
+│   └── expense_automation_workflow.json
 │
 ├── ppt/
-│ └── expense_tracker_presentation.pptx
+│   └── expense_tracker_presentation.pptx
 │
 ├── screenshots/
-│ ├── form_view.png
-│ ├── sheet_data.png
-│ ├── workflow_diagram.png
-│ └── email_notification.png
+│   ├── form_view.png
+│   ├── sheet_data.png
+│   ├── workflow_diagram.png
+│   └── email_notification.png
+```
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ### 1. Google Form Interface
-![Google Form](screenshots/form_view.png)
+
+![Google Form](C:\Users\dell6\OneDrive\Desktop\Finance-Automation-Project\google_form.png)
 
 ---
 
 ### 2. Google Sheet Data Capture
-![Google Sheet](screenshots/sheet_data.png)
+
+![Google Sheet](C:\Users\dell6\OneDrive\Desktop\Finance-Automation-Project\google_sheet.png)
 
 ---
 
 ### 3. n8n Workflow Architecture
-![n8n Workflow](screenshots/workflow_diagram.png)
+
+![n8n Workflow](C:\Users\dell6\OneDrive\Desktop\Finance-Automation-Project\n8n_architecture.png.jpeg)
 
 ---
 
 ### 4. Email Notification Output
-![Email Notification](screenshots/email_notification.png)
+
+![Email Notification](C:\Users\dell6\OneDrive\Desktop\Finance-Automation-Project\email_output.png.jpeg)
+---
+
+## ⭐ Key Features
+
+* Automated expense data capture
+* Real-time workflow execution
+* Instant email notifications
+* Centralized expense tracking
+* Dashboard-based insights
 
 ---
 
-## Key Features
-- Automated expense data capture
-- Real-time workflow triggering using n8n
-- Instant email alerts to finance team
-- Centralized expense tracking
-- Scalable integration with dashboards
+## 📊 Business Impact
+
+* Reduced manual effort and errors
+* Faster expense processing
+* Improved transparency
+* Real-time financial insights
+* Better budgeting and control
 
 ---
 
-## Business Impact
-- Reduced manual effort and errors
-- Faster expense processing
-- Improved transparency in spending
-- Real-time financial insights
-- Better budgeting and control
+## 🌍 Real-World Applications
+
+* Corporate finance departments
+* Startups automating operations
+* Consulting firms
+* Shared service centers
 
 ---
 
-## Real-World Applications
-This type of system is used in:
-- Corporate finance departments
-- Shared service centers
-- Consulting firms
-- Startups automating operations
+## ⚙️ How to Run the Project
+
+1. Create a Google Form for expense submission
+2. Link responses to Google Sheets
+3. Build n8n workflow using Google Sheets trigger
+4. Configure Gmail node for notifications
+5. Connect dataset to Power BI for dashboard
 
 ---
 
-## How to Run the Project
-1. Create Google Form for expense submission  
-2. Link responses to Google Sheets  
-3. Build n8n workflow using Google Sheets Trigger  
-4. Configure Gmail node for notifications  
-5. Connect data to Power BI for dashboard  
+## 🚀 Future Enhancements
+
+* Approval workflow integration
+* AI-based fraud detection
+* Budget alerts & notifications
+* Role-based dashboards
+* ERP system integration
 
 ---
 
-## Future Enhancements
-- Approval workflow integration  
-- Fraud detection using AI models  
-- Budget threshold alerts  
-- Role-based dashboards  
-- Integration with ERP systems  
+## 🏁 Conclusion
+
+This project shows how automation and AI-driven workflows can transform traditional finance systems into **smart, real-time decision-making platforms**.
 
 ---
 
-## Conclusion
-This project demonstrates how AI and automation can transform traditional finance operations into intelligent, real-time systems that support strategic decision-making.
+## 👩‍💼 Author
 
----
-
-## Author
+**Nancy **
 MBA Finance Student | AI in Finance Practitioner
-Nancy
+
+---
